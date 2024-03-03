@@ -1,0 +1,29 @@
+button {
+    border-radius: 10px;
+    background-color: #7cd6a9;
+    font-size: 31px;
+    font-family: sans-serif;
+    padding: 3px 10px 3px 10px;
+    border-width: 1px;
+    transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+    background-color: rgb(54, 56, 57);
+    border-radius: 20px;
+    color: white;
+    cursor:pointer;
+}
+
+button:active {
+    background-color: rgb(204, 207, 209);
+    border-radius: 20px;
+    color: rgb(56, 55, 55);
+    cursor:pointer;
+}
+
+.btn {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
