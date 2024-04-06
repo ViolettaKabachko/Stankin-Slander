@@ -1,0 +1,30 @@
+.body {
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 31px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0px 0px 10px 10px;
+}
+
+
+.table {
+    border: solid 2px;
+    border-color: rgb(204, 212, 219);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.hwInput {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img {
+    width: 30%;
+    height: 30%;
+}

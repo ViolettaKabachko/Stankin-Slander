@@ -1,0 +1,20 @@
+.btn > button {
+    background-color: rgb(248, 248, 246);
+    font-size: 31px;
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    /* padding: 3px 10px 3px 10px; */
+    border-width: 0px;
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+}
+
+.btn > button:hover {
+    background-color: rgb(234, 31, 31);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
