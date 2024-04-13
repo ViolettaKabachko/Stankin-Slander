@@ -1,6 +1,36 @@
 .input {
     font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
-    font-size: 31px;
+    font-size: 100%;
+    width: 100%;
     border-width: 0px;
     text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+
+.area {
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 100%;
+    border-width: 0px;
+    text-align: center;
+    resize: vertical;
+    width: 100%;
+    overflow:hidden;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.blocks {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }

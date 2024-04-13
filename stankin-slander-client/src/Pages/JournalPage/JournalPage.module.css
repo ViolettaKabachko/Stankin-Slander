@@ -1,13 +1,15 @@
 .body {
     font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
-    font-size: 31px;
-    display: flex;
+    font-size: 170%;
+    /* display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column; */
+    height: 100%;
+    width: 100%;
 }
 
 .title {
-    margin: 0px 0px 10px 10px;
+    margin: 0;
 }
 
 
@@ -15,14 +17,17 @@
     border: solid 2px;
     border-color: rgb(204, 212, 219);
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 0 10px 0;
+    width: 60%;
+    max-width: 100%;
+    height: 100%;
 }
-
+/* 
 .hwInput {
     display: flex;
     flex-direction: row;
     
-}
+} */
 
 .img {
     width: 30%;

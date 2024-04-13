@@ -51,24 +51,23 @@ const LandingPage = () => {
 
         <div className={classes.button}>
             <RoundButton style={{marginBottom: 10}} onClick={() => setSignIn(!showSighIn)}>
-                Вход</RoundButton>
+                Вход
+            </RoundButton>
         </div>
         
-        <div>
+        <div className={classes.inputs}>
             {showSighIn && addInput("Email", "text", email, setEmail)}
-            {showSighIn && addInput("Пароль", "password", 
-            password, setPassword)}
+            {showSighIn && addInput("Пароль", "password", password, setPassword)}
             {showSighIn && <RoundButton
              onClick={() => {}}
              style={{'marginBottom': 10, 'backgroundColor': '#7dc4c7', padding: '1 5 1 5', 'fontSize': 22}}>Войти</RoundButton>}
         </div>
 
-
         <div className={classes.button}>
             <RoundButton onClick={() => {setRegister(!showRegister)}}>Регистрация</RoundButton>
         </div>
 
-        <div>
+        <div className={classes.inputs}>
             {showRegister && inputs}
            
             {showRegister && <RoundButton

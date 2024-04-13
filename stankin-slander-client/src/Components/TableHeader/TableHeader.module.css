@@ -1,0 +1,9 @@
+.htd {
+    background-color: rgb(247, 233, 213);
+    padding: 1px;
+    text-align: center;
+}
+
+.tableR {
+    word-break: break-all;
+}
