@@ -48,13 +48,12 @@ const InputTableRow = ({add, remove, setActive}) => {
                 <textarea value={notes} rows={1} onChange={(e) => {setNotes(e.target.value); autoResize(e.target)}} className={classes.area} placeholder='Примечания'></textarea>
             </div>
             <div className={classes.blocks}>
-                <input value={term} type="date" onChange={(e) => {setTerm(ruDateFormat(e.target.value))}} className={classes.input} placeholder='Срок'></input>
+                <input value={term} type="date" onChange={(e) => {setTerm(e.target.value)}} className={classes.input} placeholder='Срок'></input>
             </div>
             <div className={classes.blocks}>
                 <RoundButton onClick={() => {add(newRow); setActive(false); clearInputs()}}>Добавить задание</RoundButton>
             </div>
         </div>
-        
     )
 }
 

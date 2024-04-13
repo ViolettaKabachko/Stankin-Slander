@@ -1,8 +1,10 @@
-import React from 'react'
+import {React} from 'react'
 import classes from './TableRow.module.css'
 import CancelButton from '../Button/CancelButton'
 
+
 const TableRow = (props) => {
+
   return (
         <tr className={classes.tableR}>
             <td className={classes.tdName}>
@@ -19,9 +21,11 @@ const TableRow = (props) => {
             </td>
             {props.is_monitor && 
             <td className={classes.td}>
-                {<CancelButton onClick={() => props.removeRow(props.id)}>╳</CancelButton>}
-            </td>}
+                {<CancelButton onClick={() => {props.setDelRow({id: props.id, name: props.subjectName}); props.setRemoveActive(true)}}>╳</CancelButton>}
+            </td>
+            }
         </tr>
+        
   )
 }
 

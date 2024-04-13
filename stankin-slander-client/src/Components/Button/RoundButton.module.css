@@ -1,7 +1,7 @@
 .btn > button {
     border-radius: 5px;
     background-color: #7cd6a9;
-    font-size: 31px;
+    font-size: 100%;
     font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
     padding: 3px 10px 3px 10px;
     border-width: 0;
