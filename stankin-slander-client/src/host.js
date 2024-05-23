@@ -1,2 +1,2 @@
-let server_domain = "http://localhost:5000";
+let server_domain = "http://localhost:8000";
 export default server_domain;

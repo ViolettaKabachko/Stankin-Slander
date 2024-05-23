@@ -1,11 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .body {
     font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
     font-size: 170%;
-    /* display: flex;
-    justify-content: flex-start;
-    flex-direction: column; */
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -22,12 +26,8 @@
     max-width: 100%;
     height: 100%;
 }
-/* 
-.hwInput {
-    display: flex;
-    flex-direction: row;
-    
-} */
+
+
 
 .img {
     width: 30%;

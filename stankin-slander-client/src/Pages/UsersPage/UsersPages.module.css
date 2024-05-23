@@ -1,0 +1,29 @@
+.info_row {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    margin: 30px 0 30px 0;
+}
+
+.info_row > p {
+    margin: 0;
+}
+
+.info {
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 140%;
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request {
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.user_info {
+    height: 50%;
+}

@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(54, 56, 57);
+    margin-bottom: 10px;
+}
+
+.navbar > div {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    font-size: 100%;
+}
+
+.anchor {
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 170%;
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.anchor:hover {
+    color: #7cd6a97f
+}
+
+.anchor_disabled {
+    font-family: "Montserrat", Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 170%;
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.2s;
+    pointer-events: none;
+    cursor: default;
+}
