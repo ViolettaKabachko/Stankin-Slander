@@ -1,24 +1,26 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from hosts import *
+from database_connection import database
+from routers.user_router import user_router
+from routers.homework_router import homework_router
+from  routers.group_router import group_router
 
 app = FastAPI()
+origins = [frontend_adress]
 
+database.connect()
 
-@app.get("/testing")
-async def test():
-    return [
-        {
-            "id": 1,
-            "subjectName": "Линал",
-            "homeWork": "№1, 2, 3, 4, 5",
-            "notes": "обязательно к КР",
-            "term": "08.04.2024"
-        },
-        {
-            "id": 2,
-            "subjectName": "ВССиТ",
-            "homeWork": "Сосать бибу",
-            "notes": "ибатулин((",
-            "term": "никогда"
-        }
-    ]
+app.include_router(user_router)
+app.include_router(homework_router)
+app.include_router(group_router)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
