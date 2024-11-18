@@ -1,4 +1,6 @@
 # University project for comfort homework managment
+## Stack
+### React.js, FastAPI, PostgreSQL
 ## Implements:
 1. JWT-based login (tokens are stored in localStorage)
 2. Roles division (Student, Monitor of study group and Admin)
