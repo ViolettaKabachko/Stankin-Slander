@@ -7,16 +7,18 @@
 
 # Functional presentation
 ## Login/Sign Up Page:
-![image](https://github.com/user-attachments/assets/03c02f95-a015-4c6d-aa3f-d013dc0edee1)
+![IMG_0375](https://github.com/user-attachments/assets/a2493544-7e10-41a9-bbe8-b20a6c90a0f4)
+
 
 ## If some group want to have it's own page, where monitor could write a actual homework, monitor have to sign up and send a request to the admin:
-![image](https://github.com/user-attachments/assets/1a287b4c-4fb2-403e-9822-b4034b85593b)
 ## Admin panel
 View of admin's panel, there is a active requests on the right side. If request is getting approved by admin, user gets the rights to add and delete homeworks of his group and this group is getting registered in application's data base.
-## Homework pages
-![image](https://github.com/user-attachments/assets/e5616a8a-ebe2-4c12-9b8e-1a775734efa8)
+![IMG_0377](https://github.com/user-attachments/assets/8920d991-4839-4128-9b60-eec65d005b98)
 
-![image](https://github.com/user-attachments/assets/73e62be1-bffd-41db-a4f7-109df25c44cd)
+## Homework pages
+![IMG_0378](https://github.com/user-attachments/assets/51e15982-513f-467b-a6e3-a69d483686b1)
+
+![IMG_0380](https://github.com/user-attachments/assets/0f71c3c8-65e5-4e62-90cf-5b3797dc9f53)
 
 Homework page contains the main table with columns ("Subject", "Homework", "Special notes", "Term")
 This page have different view in dependance of user's role:
